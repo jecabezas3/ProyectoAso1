@@ -1,0 +1,39 @@
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(rgba(67, 67, 67, .8),rgb(226, 235, 240,.7)),url('../img/bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffff;
+    font-family: sans-serif;
+}
+/* rgba(95,114,189,.8),rgba(155,35,234,.7) */
+.logo{
+    height: 50px;
+    margin-top: 20px;
+}
+
+.text-description{
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+
+
+a .fab{
+    color: #ffff;
+    font-size: 30px;
+    margin: 0 10px;
+}
+header{
+    margin-top: 75px;
+}
+#testimonial{
+    /*background: #f1f1f1;*/
+    padding:50px 0 30px 0 ;
+    text-align: center;
+    margin-top: 40px;
+}
